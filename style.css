@@ -22,7 +22,7 @@
 .navbar input {
     height: 30px;
     margin: 8px 10px;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 .cart {
     float: right;
@@ -30,4 +30,23 @@
 .slideshow {
     width: 100%;
     text-align: center;
+}
+.itemDisplay {
+    width: 150px;
+    height: 175px;
+    border: 2px solid #000000;
+    margin: 10px 10px;
+    display: inline-block;
+}
+.itemDisplay img {
+    width: 150px;
+    height: 150px;
+}
+.itemDisplay p {
+    margin: 1px 1px;
+    background-color: #fbf8cc;
+    text-align: center;
+}
+.itemViewBody {
+    
 }
