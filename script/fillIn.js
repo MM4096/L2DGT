@@ -11,7 +11,7 @@ $(document).ready(function() {
         for (let i = 1; i <= 6; i++) {
             let objectName = "item" + i;
             if (objectName.code == requestedItem) {
-                var requestedObject = objectName
+                var requestedObject = objectName;
             }
         }
         $("h1").first().text(requestedItem.name);
