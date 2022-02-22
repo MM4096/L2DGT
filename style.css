@@ -60,7 +60,7 @@
     list-style-type: none;
 }
 .itemViewBody p {
-    width: 750px;
+    width: 75%;
     word-wrap: break-word;
 }
 .cost {
