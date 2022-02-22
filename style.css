@@ -50,7 +50,44 @@
 .itemViewBody img {
     width: 500px;
     height: 500px;
+    float: left;
 }
 .itemViewBody > * {
-    display: inline-block;
+    display: inline;
+}
+.itemViewBody ul {
+    text-indent: 10px;
+    list-style-type: none;
+}
+.itemViewBody p {
+    width: 750px;
+    word-wrap: break-word;
+}
+.cost {
+    background-color: #ffcfd2;
+    width: fit-content;
+}
+.orderItem {
+    display: flex;
+}
+.orderItem > * {
+    display: inline;
+    height: inherit;
+    padding: 0px;
+}
+.orderItem input {
+    margin: 17px 10px;
+    background-color: #fde4cf;
+    border: 2px solid #000000;
+}
+.orderItem button {
+    margin: 17px 10px;
+    background-color: #fbf8cc;
+    border: 2px solid #000000;
+}
+.orderItem button:active {
+    background-color: #dbd8bc;
+}
+#slideToggle {
+    background-color: #fde4cf;
 }
