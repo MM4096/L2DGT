@@ -14,10 +14,10 @@ $(document).ready(function() {
                 var requestedObject = objectName;
             }
         }
-        $("h1").first().text(requestedItem.name);
-        $("ul").first().html(requestedItem.allergies);
-        $("#description").text(requestedItem.itemDescription);
-        $(".cost").first().text(requestedItem.cost);
+        $("h1").first().text(requestedObject.name);
+        $("ul").first().html(requestedObject.allergies);
+        $("#description").text(requestedObject.itemDescription);
+        $(".cost").first().text(requestedObject.cost);
     }
 })
 
