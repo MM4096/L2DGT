@@ -47,6 +47,10 @@
     background-color: #fbf8cc;
     text-align: center;
 }
-.itemViewBody {
-    
+.itemViewBody img {
+    width: 500px;
+    height: 500px;
+}
+.itemViewBody > * {
+    display: inline-block;
 }

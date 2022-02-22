@@ -6,3 +6,8 @@ if (localStorage.getItem("cookiePermission") != "1") {
     window.alert("You must use cookies to visit this site!");
     localStorage.setItem("cookiePermission", "1");
 }
+
+function goTo(itemName) {
+    window.location.href = "viewItem.html";
+    sessionStorage.setItem("getItemName", itemName);
+}
