@@ -6,6 +6,7 @@ var item1 = {
     itemDescription: "1 pack of peppermint candy contains: 10 peppermint candies. Looking for some snacks? Like the taste of mint? This is your #1 choice of candy!",
     cost: 1,
     maxQty: 100,
+    src: "images/peppermintCandy.jpg",
 }
 
 var item2 = {
@@ -15,6 +16,7 @@ var item2 = {
     itemDescription: "360g of Cadbury milk chocolate. For chocolate lovers!",
     cost: 6,
     maxQty: 50,
+    src: "images/chocolate.jpg",
 }
 
 var item3 = {
@@ -24,6 +26,7 @@ var item3 = {
     itemDescription: "A single lollipop for a quick but long lasting lollipop",
     cost: 0.5,
     maxQty: 100,
+    src: "images/lollipop.jpg",
 }
 
 var item4 = {
@@ -33,6 +36,7 @@ var item4 = {
     itemDescription: "10 pack of Pascall's soft gummies",
     cost: 0.5,
     maxQty: 100,
+    src: "images/allsortedLollies.jpg",
 }
 
 var item5 = {
@@ -42,6 +46,7 @@ var item5 = {
     itemDescription: "20 pack of Candy Corn, a popular Halloween candy!",
     cost: 1,
     maxQty: 100,
+    src: "images/candyCorn.jpg",
 }
 
 var item6 = {
@@ -51,5 +56,6 @@ var item6 = {
     itemDescription: "25 pack of Sour Gummy Worms",
     cost: 1,
     maxQty: 100,
+    src: "images/sourGummyWorms.jpg",
 }
 
