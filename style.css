@@ -51,6 +51,7 @@
     width: 500px;
     height: 500px;
     float: left;
+    margin: 10px;
 }
 .itemViewBody > * {
     display: inline;
