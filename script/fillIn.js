@@ -44,42 +44,42 @@ function fill(itemCode) {
             $("ul").first().html(item1.allergies);
             $("#description").text(item1.itemDescription);
             $(".cost").first().text(item1.cost);
-            $("img").attr("src", item1.src);
+            $("img").last().attr("src", item1.src);
         break
         case 2:
             $("h1").first().text(item2.name);
             $("ul").first().html(item2.allergies);
             $("#description").text(item2.itemDescription);
             $(".cost").first().text(item2.cost);
-            $("img").attr("src", item2.src);
+            $("img").last().attr("src", item2.src);
         break
         case 3:
             $("h1").first().text(item3.name);
             $("ul").first().html(item3.allergies);
             $("#description").text(item3.itemDescription);
             $(".cost").first().text(item3.cost);
-            $("img").attr("src", item3.src);
+            $("img").last().attr("src", item3.src);
         break
         case 4:
             $("h1").first().text(item4.name);
             $("ul").first().html(item4.allergies);
             $("#description").text(item4.itemDescription);
             $(".cost").first().text(item4.cost);
-            $("img").attr("src", item4.src);
+            $("img").last().attr("src", item4.src);
         break
         case 5:
             $("h1").first().text(item5.name);
             $("ul").first().html(item5.allergies);
             $("#description").text(item5.itemDescription);
             $(".cost").first().text(item5.cost);
-            $("img").attr("src", item5.src);
+            $("img").last().attr("src", item5.src);
         break
         case 6:
             $("h1").first().text(item6.name);
             $("ul").first().html(item6.allergies);
             $("#description").text(item6.itemDescription);
             $(".cost").first().text(item6.cost);
-            $("img").attr("src", item6.src);
+            $("img").last().attr("src", item6.src);
         break
     }
     

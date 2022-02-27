@@ -92,3 +92,8 @@
 #slideToggle {
     background-color: #fde4cf;
 }
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
