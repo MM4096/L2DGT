@@ -38,6 +38,7 @@ body {
 .slideshow {
     width: 100%;
     text-align: center;
+    background-color: #ffffff;
 }
 .slideshow img {
     width: 90vmin;
@@ -152,4 +153,7 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: #ffcfd2;
+}
+.cartContainer {
+    margin: 1em;
 }

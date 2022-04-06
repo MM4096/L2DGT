@@ -103,3 +103,18 @@ function calculateCost() {
     let itemCost = totalItems * cost;
     $("button").text("Add " + totalItems + " to cart for $" + itemCost);
 }
+
+function addToCart() {
+    let totalItems = $("#addTotal").val();
+    totalItems = parseInt(totalItems);
+    if (totalItems < 0) {
+        console.warn("Error: Unexpected quantity of items - negative values");
+        window.alert("Error. See console for more info (ctrl + shift + i), chrome on windows");
+    } else if (totalItems > 20) {
+        if (window.confirm("You ordered a lot of items. Are you sure you want to do this?")) {
+            localStorage.setItem(requestedItem, totalItems);
+        }
+    } else {
+        localStorage.setItem(requestedItem, totalItems);
+    }
+}
