@@ -1,4 +1,5 @@
 //List of each item's info
+//HTML included for formatting
 var item1 = {
     code: "peppermintCandy",
     name: "Peppermint Candy",
