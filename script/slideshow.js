@@ -10,7 +10,6 @@ $(document).ready(function() {
             if (i == 6) {
                 i = 1;
             }
-            console.log(i);
         
     }, 5000)
 })

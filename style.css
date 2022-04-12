@@ -123,33 +123,34 @@ body {
     display: inline;
 }
 .cartItem > img {
-    width: 30px;
-    height: 30px;
+    width: 5vh;
+    height: 5vh;
     padding: 0px;
 }
 .itemName {
-    font-size: 29px;
+    font-size: 4vh;
     text-align: center;
     margin: 0px 5px 0px 5px;
-    height: 30px;
+    height: 5vh;
     background-color: #fbf8cc;
 }
 .itemQty {
-    height: 26px;
+    height: inherit;
     padding: 0px;
     margin: 0px;
+    font-size: 4vh;
     background-color: #fde4cf;
 }
 .itemCostEa {
-    height: 30px;
-    font-size: 29px;
+    height: inherit;
+    font-size: 4vh;
     padding: 0px;
     margin: 0px 10px 0px 5px;
     background-color: #fbf8cc;
 }
 .itemCostTo {
-    height: 30px;
-    font-size: 29px;
+    height: inherit;
+    font-size: 4vh;
     padding: 0px;
     margin: 0px;
     background-color: #ffcfd2;

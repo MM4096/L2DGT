@@ -42,7 +42,7 @@ $(document).ready(function () {
     itemCost = parseFloat(item3.cost);
     totalCost = itemCost * itemQty;
     $("#item3").children("img").attr("src", item3.src);
-    $("#item3>.itemName").text(item2.name);
+    $("#item3>.itemName").text(item3.name);
     $("#item3 > .itemQty").val(itemQty);
     $("#item3 > .itemCostEa").text("$" + item3.cost + " each");
     $("#item3 > .itemCostTo").text("$" + totalCost + " total");

@@ -118,4 +118,6 @@ function addToCart() {
     } else {
         localStorage.setItem(requestedItem, totalItems);
     }
+    $("#addTotal").val("0");
+    calculateCost();
 }
