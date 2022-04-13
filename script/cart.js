@@ -95,3 +95,73 @@ $(document).ready(function () {
     $("#item6 > .itemCostEa").text("$" + item6.cost + " each");
     $("#item6 > .itemCostTo").text("$" + totalCost + " total");
 })
+
+function updateCart() {
+    let itemName = item1.code;
+    let itemQty = parseInt($("#item1 > .itemQty").val());
+    let itemCost = parseFloat(item1.cost);
+    let totalCost = itemCost * itemQty;
+    $("#item1").children("img").attr("src", item1.src);
+    $("#item1>.itemName").text(item1.name);
+    $("#item1 > .itemQty").val(itemQty);
+    $("#item1 > .itemCostEa").text("$" + item1.cost + " each");
+    $("#item1 > .itemCostTo").text("$" + totalCost + " total");
+
+    itemName = item2.code;
+    itemQty = parseInt($("#item2 > .itemQty").val());
+    itemCost = parseFloat(item2.cost);
+    totalCost = itemCost * itemQty;
+    $("#item2").children("img").attr("src", item2.src);
+    $("#item2>.itemName").text(item2.name);
+    $("#item2 > .itemQty").val(itemQty);
+    $("#item2 > .itemCostEa").text("$" + item2.cost + " each");
+    $("#item2 > .itemCostTo").text("$" + totalCost + " total");
+
+    itemName = item3.code;
+    itemQty = parseInt($("#item3 > .itemQty").val());
+    itemCost = parseFloat(item3.cost);
+    totalCost = itemCost * itemQty;
+    $("#item3").children("img").attr("src", item3.src);
+    $("#item3>.itemName").text(item3.name);
+    $("#item3 > .itemQty").val(itemQty);
+    $("#item3 > .itemCostEa").text("$" + item3.cost + " each");
+    $("#item3 > .itemCostTo").text("$" + totalCost + " total");
+
+    itemName = item4.code;
+    itemQty = parseInt($("#item4 > .itemQty").val());
+    itemCost = parseFloat(item4.cost);
+    totalCost = itemCost * itemQty;
+    $("#item4").children("img").attr("src", item4.src);
+    $("#item4>.itemName").text(item4.name);
+    $("#item4 > .itemQty").val(itemQty);
+    $("#item4 > .itemCostEa").text("$" + item4.cost + " each");
+    $("#item4 > .itemCostTo").text("$" + totalCost + " total");
+
+    itemName = item5.code;
+    itemQty = parseInt($("#item5 > .itemQty").val());
+    itemCost = parseFloat(item5.cost);
+    totalCost = itemCost * itemQty;
+    $("#item5").children("img").attr("src", item5.src);
+    $("#item5>.itemName").text(item5.name);
+    $("#item5 > .itemQty").val(itemQty);
+    $("#item5 > .itemCostEa").text("$" + item5.cost + " each");
+    $("#item5 > .itemCostTo").text("$" + totalCost + " total");
+
+    itemName = item6.code;
+    itemQty = parseInt($("#item6 > .itemQty").val());
+    itemCost = parseFloat(item6.cost);
+    totalCost = itemCost * itemQty;
+    $("#item6").children("img").attr("src", item6.src);
+    $("#item6>.itemName").text(item6.name);
+    $("#item6 > .itemQty").val(itemQty);
+    $("#item6 > .itemCostEa").text("$" + item6.cost + " each");
+    $("#item6 > .itemCostTo").text("$" + totalCost + " total");
+}
+
+function buy() {
+    let items = ["N/A"]
+    for (let i = 1; i < 7; i++) {
+        items[i] = $("#item" + i + " > .itemQty").val();
+    }
+    window.alert('Your order: \r' + item1.name + " " + items[1] + '\r' + item2.name + " " + items[2] + '\r' + item3.name + " " + items[3] + '\r' + item4.name + " " + items[4] + '\r' + item5.name + " " + items[5] + '\r' + item6.name + " " + items[6])
+}

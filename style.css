@@ -56,9 +56,8 @@ body {
     height: 15vmax;
 }
 .itemDisplay p {
-    margin: 1vmax;
     text-align: center;
-    font-size: fit-content;
+    font-size: 1vmax;
 }
 .itemViewBody img {
     width: 90vmin;
@@ -133,6 +132,7 @@ body {
     margin: 0px 5px 0px 5px;
     height: 5vh;
     background-color: #fbf8cc;
+    width: 25vw;
 }
 .itemQty {
     height: inherit;
@@ -140,6 +140,7 @@ body {
     margin: 0px;
     font-size: 4vh;
     background-color: #fde4cf;
+    width: 10vw;
 }
 .itemCostEa {
     height: inherit;
@@ -147,6 +148,7 @@ body {
     padding: 0px;
     margin: 0px 10px 0px 5px;
     background-color: #fbf8cc;
+    width: 10vw;
 }
 .itemCostTo {
     height: inherit;
@@ -154,7 +156,19 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: #ffcfd2;
+    width: 10vw;
 }
 .cartContainer {
     margin: 1em;
+}
+button {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    width: 7.5vw;
+    height: 5vh;
+    margin: 1vmax;
+    font-size: 4vh;
+}
+button:active {
+    background-color: #dbd8bc;
 }
